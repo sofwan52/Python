@@ -1,0 +1,13 @@
+# Data yang dimasukan pasti string
+input_ = input("Masukan nama : ")
+print(input_)
+
+# Jika ingin mengambil int atau float
+angka = int(input("Masukan no : "))
+angka2 = float(input("Masukan no hp : "))
+print(angka)
+print(angka2)
+
+# How with boolean
+binner = bool(input("Masukan nilai boolean"))
+print(binner)
