@@ -1,0 +1,88 @@
+# Looping dari list
+
+# For loop
+print("===For Loop===")
+kumpulan_angka = [4,5,3,2,5,3,6,4]
+kumpulan_angka.sort()
+for angka in kumpulan_angka:
+    print(f"angka = {angka}")
+
+peserta = ["elsya","halla","intan","iki","aulia","irma"]
+for nama in peserta:
+    print(f"Nama peserta : {nama}")
+
+# For loop dan range
+print("===For Loop dan Range===")
+kumpulan_angka = [2,3,2,4,5,1,3,4,5]
+panjang = len(kumpulan_angka)
+for i in range(panjang):
+    print(f"Angka = {kumpulan_angka[i]}")
+
+# While
+
+print("===While===")
+i = 0
+while i < panjang:
+    print(f"Angka = {kumpulan_angka[i]}")
+    i +=1
+
+# List compreheration
+print("===List Compeheration===")
+data= ["budi",3,5,2,"ami"]
+[print(f"Compeheraton = {i}") for i in data]
+
+# Enumerate
+print("===Enumerete===")
+list_data= ["budi",3,5,2,"ami"]
+
+for index,data in enumerate(list_data):
+    print(f"Index = {index}, data : {data}")
+    
+    
+===For Loop===
+angka = 2
+angka = 3
+angka = 3
+angka = 4
+angka = 4
+angka = 5
+angka = 5
+angka = 6
+Nama peserta : elsya
+Nama peserta : halla
+Nama peserta : intan
+Nama peserta : iki
+Nama peserta : aulia
+Nama peserta : irma
+===For Loop dan Range===
+Angka = 2
+Angka = 3
+Angka = 2
+Angka = 4
+Angka = 5
+Angka = 1
+Angka = 3
+Angka = 4
+Angka = 5
+===While===
+Angka = 2
+Angka = 3
+Angka = 2
+Angka = 4
+Angka = 5
+Angka = 1
+Angka = 3
+Angka = 4
+Angka = 5
+===List Compeheration===
+Compeheraton = budi
+Compeheraton = 3
+Compeheraton = 5
+Compeheraton = 2
+Compeheraton = ami
+===Enumerete===
+Index = 0, data : budi
+Index = 1, data : 3
+Index = 2, data : 5
+Index = 3, data : 2
+Index = 4, data : ami
