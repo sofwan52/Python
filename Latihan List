@@ -1,0 +1,16 @@
+list_buku = []
+while True:
+     print("\nMasukan judul buku dan penulisnya:")
+     Judul = input("Masukan judul buku\t: ")
+     penulis = input("Masukan penulis buku\t: ")
+     Judulpenulis = [Judul,penulis]
+     list_buku.append(Judulpenulis)
+     print("="*5 + "Data Buku " + "="*5)
+     for index,buku in enumerate(list_buku):
+        print(f"No. {index+1} \t|Judul buku\t: {buku[0]} \t|Penulis\t: {buku[1]}")
+        
+     tanya = input("Apakah lanjut (yes/no): ")
+     if tanya == "no" or tanya =="No" or tanya =="NO":
+         break
+     if tanya == "yes" or tanya =="YES" or tanya =="Yes":
+         continue
